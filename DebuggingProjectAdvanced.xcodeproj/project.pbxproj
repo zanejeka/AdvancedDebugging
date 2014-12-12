@@ -14,6 +14,7 @@
 		182AE4721A3B5E2C00F8F009 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182AE4701A3B5E2C00F8F009 /* LaunchScreen.xib */; };
 		182AE47E1A3B5E2C00F8F009 /* DebuggingProjectAdvancedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AE47D1A3B5E2C00F8F009 /* DebuggingProjectAdvancedTests.swift */; };
 		182AE4881A3B5E6F00F8F009 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AE4871A3B5E6F00F8F009 /* GameModel.swift */; };
+		182AE48A1A3B721B00F8F009 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 182AE4891A3B721B00F8F009 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		182AE47C1A3B5E2C00F8F009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182AE47D1A3B5E2C00F8F009 /* DebuggingProjectAdvancedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingProjectAdvancedTests.swift; sourceTree = "<group>"; };
 		182AE4871A3B5E6F00F8F009 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		182AE4891A3B721B00F8F009 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		182AE4591A3B5E2C00F8F009 = {
 			isa = PBXGroup;
 			children = (
+				182AE4891A3B721B00F8F009 /* readme.md */,
 				182AE4641A3B5E2C00F8F009 /* DebuggingProjectAdvanced */,
 				182AE47A1A3B5E2C00F8F009 /* DebuggingProjectAdvancedTests */,
 				182AE4631A3B5E2C00F8F009 /* Products */,
@@ -217,6 +220,7 @@
 			files = (
 				182AE46A1A3B5E2C00F8F009 /* ViewController.swift in Sources */,
 				182AE4681A3B5E2C00F8F009 /* AppDelegate.swift in Sources */,
+				182AE48A1A3B721B00F8F009 /* readme.md in Sources */,
 				182AE4881A3B5E6F00F8F009 /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				182AE4831A3B5E2C00F8F009 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182AE4841A3B5E2C00F8F009 /* Build configuration list for PBXNativeTarget "DebuggingProjectAdvancedTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				182AE4861A3B5E2C00F8F009 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
