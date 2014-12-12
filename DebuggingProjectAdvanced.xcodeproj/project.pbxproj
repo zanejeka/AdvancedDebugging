@@ -13,6 +13,7 @@
 		182AE46F1A3B5E2C00F8F009 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182AE46E1A3B5E2C00F8F009 /* Images.xcassets */; };
 		182AE4721A3B5E2C00F8F009 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182AE4701A3B5E2C00F8F009 /* LaunchScreen.xib */; };
 		182AE47E1A3B5E2C00F8F009 /* DebuggingProjectAdvancedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AE47D1A3B5E2C00F8F009 /* DebuggingProjectAdvancedTests.swift */; };
+		182AE4881A3B5E6F00F8F009 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AE4871A3B5E6F00F8F009 /* GameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		182AE4771A3B5E2C00F8F009 /* DebuggingProjectAdvancedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebuggingProjectAdvancedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182AE47C1A3B5E2C00F8F009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182AE47D1A3B5E2C00F8F009 /* DebuggingProjectAdvancedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingProjectAdvancedTests.swift; sourceTree = "<group>"; };
+		182AE4871A3B5E6F00F8F009 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				182AE46E1A3B5E2C00F8F009 /* Images.xcassets */,
 				182AE4701A3B5E2C00F8F009 /* LaunchScreen.xib */,
 				182AE4651A3B5E2C00F8F009 /* Supporting Files */,
+				182AE4871A3B5E6F00F8F009 /* GameModel.swift */,
 			);
 			path = DebuggingProjectAdvanced;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				182AE46A1A3B5E2C00F8F009 /* ViewController.swift in Sources */,
 				182AE4681A3B5E2C00F8F009 /* AppDelegate.swift in Sources */,
+				182AE4881A3B5E6F00F8F009 /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
