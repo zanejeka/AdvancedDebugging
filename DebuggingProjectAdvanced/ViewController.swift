@@ -14,9 +14,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var guessTextField: UITextField!
     @IBOutlet weak var guessFeedback: UILabel!
     @IBOutlet weak var playAgainButton: UIButton!
+    
     @IBOutlet weak var instructionsLabel: UILabel!
     @IBOutlet weak var instructionsLabel2: UILabel!
     @IBOutlet weak var guessButton: UIButton!
+    @IBOutlet weak var hintButton: UIButton!
     
     var tries = 0
     override func viewDidLoad() {
@@ -58,7 +60,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     //MARK: IBActions
-    @IBAction func makeGuess(sender: AnyObject) {
+    @IBAction func GuessMade(sender: AnyObject) {
         guessTextField.resignFirstResponder()
         checkGuess()
     }
@@ -73,7 +75,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         guessButton.hidden = false
         instructionsLabel.hidden = false
         instructionsLabel2.hidden = false
-        
     }
 }
 

@@ -55,7 +55,7 @@ Can you guess it?</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="makeGuess:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YT2-QC-MGm"/>
+                                    <action selector="GuessMade:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8rM-A9-dED"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UAr-MH-Ev1">
@@ -66,7 +66,7 @@ Can you guess it?</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yTj-2C-w2Y">
-                                <rect key="frame" x="123" y="340" width="71" height="30"/>
+                                <rect key="frame" x="123" y="370" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Play again">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -75,6 +75,13 @@ Can you guess it?</string>
                                     <action selector="playAgain:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EPu-Hk-ZUU"/>
                                 </connections>
                             </button>
+                            <button alpha="0.050000000000000003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Nzg-Lu-fEB">
+                                <rect key="frame" x="123" y="340" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play again">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -82,7 +89,7 @@ Can you guess it?</string>
                         <outlet property="guessButton" destination="o93-iF-blL" id="XVZ-ox-OZf"/>
                         <outlet property="guessFeedback" destination="UAr-MH-Ev1" id="Uo9-8s-O0W"/>
                         <outlet property="guessTextField" destination="uAH-NB-Dzl" id="jsB-Qc-oWe"/>
-                        <outlet property="instructionsLabel" destination="3ke-Wh-GZ1" id="N8q-nf-5gp"/>
+                        <outlet property="instructionsLabel" destination="3ke-Wh-GZ1" id="TjN-Nn-yCC"/>
                         <outlet property="instructionsLabel2" destination="2HW-pI-QmA" id="axp-i5-SL4"/>
                         <outlet property="playAgainButton" destination="yTj-2C-w2Y" id="HL6-Mx-5qc"/>
                     </connections>

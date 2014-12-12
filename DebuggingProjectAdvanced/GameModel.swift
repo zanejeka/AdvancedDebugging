@@ -21,6 +21,7 @@ class GameModel {
         if (computerRandomNumber == userGuess) {
             return(true,false)
         } else {
+            //if userGuess is higher than computerRandomNumber, then isHigher = true
             let isHigher = userGuess > computerRandomNumber
             return(false,isHigher)
         }
