@@ -18,7 +18,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var instructionsLabel: UILabel!
     @IBOutlet weak var instructionsLabel2: UILabel!
     @IBOutlet weak var guessButton: UIButton!
-    @IBOutlet weak var hintButton: UIButton!
     
     var tries = 0
     override func viewDidLoad() {
