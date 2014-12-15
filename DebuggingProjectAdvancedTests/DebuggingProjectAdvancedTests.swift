@@ -2,8 +2,8 @@
 //  DebuggingProjectAdvancedTests.swift
 //  DebuggingProjectAdvancedTests
 //
-//  Created by Craig on 12/12/2014.
-//  Copyright (c) 2014 InteractiveCoconut. All rights reserved.
+//  Created by Thinkful on 12/12/2014.
+//  Copyright (c) 2014 Thinkful. All rights reserved.
 //
 
 import UIKit
