@@ -30,26 +30,28 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     func checkGuess() {
-        var guess = guessTextField.text.toInt()
-        if let guessUnwrapped = guess {
-            tries++
-            //get tuple back from gameModel
-            var (guessIsCorrect,guessIsHigher) = gameModel.makeGuess(guessUnwrapped)
-            if (guessIsCorrect) {
-                guessFeedback.text = "\(guessUnwrapped)! Well done! You guessed it in \(tries) tries!"
-                //hide the game, and display play again button
-                playAgainButton.hidden = false
-                instructionsLabel.hidden = true
-                instructionsLabel2.hidden = true
-                guessTextField.hidden = true
-                guessButton.hidden = true
-            } else if (guessIsHigher) { //guess was higher, so the player should guess lower
-                guessFeedback.text = "Try \(tries) - \(guessUnwrapped): Bad luck! Lower!"
-            } else {                    //guess was lower, so the player should guess higher
-                guessFeedback.text = "Try \(tries) - \(guessUnwrapped): Bad luck! Higher!"
+        if let guessText = guessTextField.text {
+            let guess = Int(guessText)
+            if let guessUnwrapped = guess {
+                tries++
+                //get tuple back from gameModel
+                let (guessIsCorrect,guessIsHigher) = gameModel.makeGuess(guessUnwrapped)
+                if (guessIsCorrect) {
+                    guessFeedback.text = "\(guessUnwrapped)! Well done! You guessed it in \(tries) tries!"
+                    //hide the game, and display play again button
+                    playAgainButton.hidden = false
+                    instructionsLabel.hidden = true
+                    instructionsLabel2.hidden = true
+                    guessTextField.hidden = true
+                    guessButton.hidden = true
+                } else if (guessIsHigher) { //guess was higher, so the player should guess lower
+                    guessFeedback.text = "Try \(tries) - \(guessUnwrapped): Bad luck! Lower!"
+                } else {                    //guess was lower, so the player should guess higher
+                    guessFeedback.text = "Try \(tries) - \(guessUnwrapped): Bad luck! Higher!"
+                }
             }
+            guessTextField.text = ""
         }
-        guessTextField.text = ""
     }
     
     //MARK: UITextFieldDelegate functions

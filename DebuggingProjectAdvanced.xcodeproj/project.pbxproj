@@ -161,6 +161,8 @@
 		182AE45A1A3B5E2C00F8F009 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = InteractiveCoconut;
 				TargetAttributes = {
